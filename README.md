@@ -4,7 +4,7 @@ This repository showcases a Java-based solution for implementing the **Abstract 
 
 ---
 
-### Key Concepts
+### Key Concepts Applied
 
 #### Abstract Factory
 The **Abstract Factory** pattern provides an interface for creating families of related objects without specifying their concrete classes. In this project, the `DeviceFactory` interface acts as the abstract factory, defining methods to create different types of smart devices (`createLightBulb()` and `createSmartLock()`). This pattern ensures that a client (like `Main.java`) is decoupled from the specific brands, allowing it to work with any `DeviceFactory` implementation. 
@@ -31,31 +31,26 @@ This project is organized to clearly separate the core design pattern implementa
 
 ### UML Class Diagram
 
+<img width="1352" height="616" alt="image" src="https://github.com/user-attachments/assets/dd756fd2-f6ac-49e2-ae17-58ee2af1d5de" />
 
-This UML diagram visualizes the project's design, illustrating how the **Abstract Factory** and **Factory Method** patterns work together. A client (`Main`) uses a `DeviceFactory` to create abstract products (`LightBulb`, `SmartLock`) without needing to know the concrete product classes.
+This UML diagram visualizes the project's design, illustrating how the **Abstract Factory** and **Factory Method** patterns work together. A client (`Main`) uses a `DeviceFactory` to create abstract products (`LightBulb`, `SmartLock`) without needing to know the concrete product classes. The diagram is created with PlantUML, and directly correlates to the Java code, illustrating all relationships between classes, and all attributes and methods used.
 ---
 
-### Execution and Demonstration
+### Execution and Demonstration with Example Output
 
-The `Main.java` class demonstrates the system's flexibility by creating devices from different brands. To run the program:
+The `Main.java` class demonstrates the system's flexibility by creating devices from different brands.
 
-1.  Compile all the Java files:
-    ```bash
-    javac src/*.java tests/*.java
-    ```
-2.  Run the main class from the command line:
-    ```bash
-    java tests.Main
-    ```
-
-#### Example Output:
 The program's output will confirm that devices from both Brand Alpha and Brand Beta are successfully created and configured, demonstrating that the design effectively handles different product families.
 
 * **Brand Alpha Bulb**: The `BrandAlphaFactory` is used to create a `BrandAlphaBulb` object. The program then simulates setting its power usage.
 * **Brand Beta Lock**: The `BrandBetaFactory` is used to create a `BrandBetaLock` object. The program then simulates setting its battery consumption.
 
+<img width="2405" height="466" alt="image" src="https://github.com/user-attachments/assets/127f5afd-c438-4137-99c4-4dcb97c16b98" />
+
+
 ---
 
-### Contribution and Feedback
+### Contributers
 
-Feel free to explore the code and provide feedback. If you'd like to extend this project, consider adding a new brand, a new type of device (e.g., a smart thermostat), or implementing a different design pattern.
+Sayyeda Faruqui
+Eesha Razia Tul
