@@ -34,6 +34,7 @@ This project is organized to clearly separate the core design pattern implementa
 <img width="1352" height="616" alt="image" src="https://github.com/user-attachments/assets/dd756fd2-f6ac-49e2-ae17-58ee2af1d5de" />
 
 This UML diagram visualizes the project's design, illustrating how the **Abstract Factory** and **Factory Method** patterns work together. A client (`Main`) uses a `DeviceFactory` to create abstract products (`LightBulb`, `SmartLock`) without needing to know the concrete product classes. The diagram is created with PlantUML, and directly correlates to the Java code, illustrating all relationships between classes, and all attributes and methods used.
+
 ---
 
 ### Execution and Demonstration with Example Output
