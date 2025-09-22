@@ -51,10 +51,6 @@ The program's output will confirm that devices from both Brand Alpha and Brand B
 
 ---
 
-### Contributers
-
----
-
 ### Contributors
 
 * Sayyeda Faruqui
